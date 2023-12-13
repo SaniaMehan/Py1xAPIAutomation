@@ -12,5 +12,17 @@ It is Hybrid Custom Framework to test the REST APIs
 5.Test Data = which we keep in Excel file, CSV file or JSON file also
 6.Parallel Execution = this will use xdsitribute dependency
 
-How to install packages
+
+How to Install Packages
 pip install requests pytest pytest-html faker allure-pytest jsonschema
+
+To Freeze your Package version
+pip freeze > requirements.txt
+
+To Install te Freeze Version
+pip install -r requirements.txt
+
+How to run your Testcase Parallel
+pip install pytest-xdist
+
+pytest -n auto tests/integration_test/test_create_booking.py -s -v 
