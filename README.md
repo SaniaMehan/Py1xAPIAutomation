@@ -1,0 +1,16 @@
+README file is nothing but it is Python API Authomation Framework or
+documentation
+
+It is Hybrid Custom Framework to test the REST APIs
+
+## Tech Stack
+
+1.Python 3.11
+2.Requests used to make our HTTP Requests
+3.Pytest = It is testing framework
+4.Reporting = Allure Report, Pytest HTML
+5.Test Data = which we keep in Excel file, CSV file or JSON file also
+6.Parallel Execution = this will use xdsitribute dependency
+
+How to install packages
+pip install requests pytest pytest-html faker allure-pytest jsonschema
